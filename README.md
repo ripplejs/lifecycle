@@ -18,6 +18,22 @@ View.created(function(){
 });
 ```
 
+## Install
+
+```
+component install ripplejs/lifecycle
+```
+
+## Usage
+
+```js
+var ripple = require('ripple');
+var lifecycle = require('lifecycle');
+
+var View = ripple(template)
+    .use(lifecycle);
+```
+
 ## Available Methods
 
 * construct
