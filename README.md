@@ -31,7 +31,7 @@ var ripple = require('ripple');
 var lifecycle = require('lifecycle');
 
 var View = ripple(template)
-    .use(lifecycle);
+    .use(lifecycle());
 ```
 
 ## Available Methods
